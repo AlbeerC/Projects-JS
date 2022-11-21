@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 70px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 9px 11px 0px rgba(0,0,0,0.72); 
+    box-shadow: 0px 9px 11px 0px rgba(0,0,0,0.72);
+}
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #7777bb;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+header ul li a {
+    font-size: 25px;
+    color: #000000;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header ul li a:hover {
+    color: #7777bb;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40vh;
+}
+main h2 {
+    font-size: 50px;
+    padding: 25px 50px;
+    text-align: center;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #7777bb;
+    border-radius: 30px;
+}
+main h2 span {
+    font-weight: bold;
+}
+main button {
+    padding: 20px 60px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+main button:hover {
+    background-color: #00000073;
+}
